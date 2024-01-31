@@ -1,3 +1,9 @@
+'''
+Program to remove "stop words" from a given text
+Author: Mantha Sai Gopal
+Reg.no: 23358
+'''
+
 from pyspark.sql import SparkSession
 
 def stopwords_mapper(word):
